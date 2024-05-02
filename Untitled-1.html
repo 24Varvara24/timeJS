@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Untitled-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="tabs">
+        <div class="tabs__headers">
+
+
+        <input value="Время" type="button" id="tabs__time" >
+        <input value="Таймер" type="button" id="tabs__timer">
+        <input value="Секундомер" type="button" id="tabs__stopwatch">
+        </div>
+
+
+        <div class="time">
+            <div class="btns">
+                <input type="button" id="kalin" value="Калининградское время(-1)">
+                <input type="button" id="msk" value="Московское время(0)">
+                <input type="button" id="sam" value="Самарское время(+1)">
+                <input type="button" id="ekb" value="Екатеринбургское время(+2)">
+            </div>
+            <h1 class="date"></h1>
+        </div>
+        <div class="timer">
+            <span class="timer_date" style="display: none;"></span>
+            <div class="timer__inp" style="display: flex;">
+                <h1>Timer length</h1>
+                <div class="timer__inputWindows">
+                <input type="text" name="" placeholder="Hour" id="timer__inp-hours">
+                <input type="text" name="" placeholder="Mins" id="timer__inp-min">
+                <input type="text" name="" placeholder="Sec" id="timer__inp-sec">
+            </div>
+                <input type="button" value="Input" id="timer_input-btn">
+            </div>
+            <div class="timer__btns">
+                <input type="button" value="Запуск" id="timer_start" style="display: none;">
+                <input type="button" value="Стоп" id="timer_stop" style="display: none;">
+                <input type="button" value="Перезапустить" id="timer_reset" style="display: none;">
+                <input type="button" value="Изменить " id="timer_del" style="display: none;">
+    
+            </div>
+        </div>
+        <div class="stopwatch">
+            <div class="stopwatch-block">
+                <p class="stopwatch__date"></p>
+                <div class="stopwatch_btns">
+                    <input type="button" value="Запуск" id="stopwatch__start">
+                    <input type="button" value="Cделать сохранение" id="stopwatch__save" style="display: none;">
+                    <input type="button" value="Стоп" id="stopwatch__stop" style="display: none;">
+                    <input type="button" value="Очистить" id="stopwatch__delete" style="display: none;">
+                </div>
+    
+    
+            </div>
+            <div class="saves" style="display: none;">
+    
+            </div>
+        </div>
+    </div>
+    <script src="Untitled-1.js"></script>
+
+</body>
+
+</html>

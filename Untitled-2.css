@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url(https://otkritkis.com/wp-content/uploads/2022/07/hrjf8.gif);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.tabs {
+margin: 0 auto;
+width: 60%;
+ 
+} 
+
+
+input[name="switchTab"] {
+    display: none;
+}
+
+.tabs__headers {
+    display: inline-flex;
+
+}
+
+#tabs__time,
+#tabs__timer,
+#tabs__stopwatch {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(0, 0, 0, .5);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 1s;
+
+}
+
+#tabs__time {
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.tabs__headers input:hover {
+    background-color: rgb(0, 0, 0, .8);
+
+}
+
+
+
+.timer {
+   /*  width: 50%; */
+    height: 400px;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+
+}
+
+
+
+
+.time {
+    /* width: 60%; */
+    height: 500px;
+    background-color: rgb(0, 0, 0, .8);
+    display: block;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.date {
+    font-size: 200px;
+    font-family: 'Caveat', cursive;
+    color: white;
+
+}
+
+.btns {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.btns input {
+    outline: none;
+    border: none;
+
+    background-color: rgb(0, 0, 0, .0);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+}
+
+.timer_date {
+    color: white;
+    font-size: 200px;
+    font-family: 'Caveat', cursive;
+
+
+}
+
+.timer__inp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+    gap: 30px;
+}
+
+
+.timer__inputWindows {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timer__inputWindows input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    width: 250px;
+
+}
+
+#timer_input-btn {
+    width: 150px;
+
+    font-size: 32px;
+    font-family: 'Caveat', cursive;
+    outline: none;
+    border: none;
+
+    background-color: rgb(0, 0, 0, .0);
+    color: white;
+    cursor: pointer;
+
+}
+
+.timer__btns {
+
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.timer__btns input,
+.stopwatch_btns input {
+    font-size: 32px;
+    outline: none;
+    border: none;
+    font-family: 'Caveat', cursive;
+    background-color: rgb(0, 0, 0, .0);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.stopwatch{
+   /*  width: 60%; */
+    height: 100%;
+    background-color: rgb(0, 0, 0, .8);
+    display: none;
+    padding: 50px;
+ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.stopwatch-block{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.stopwatch_btns{
+    width: 100%;
+display: inline-flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+
+
+.stopwatch__date{
+    font-size: 200px;
+    font-family: 'Caveat', cursive;
+    color: white;
+
+}
+
+.saves{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
